@@ -1,0 +1,8 @@
+Total of 6 names.
+------------------
+Doo, Scooby
+Jones, Fred
+Dinkley, Velma
+Doo, Scrappy
+Rogers, Shaggy
+Blake, Daphne

@@ -1,23 +1,11 @@
 @startuml
 'https://plantuml.com/class-diagram
 
-class readfromfile(ifile){
-    - String[] inputarray
-    + openfile(ifile)
-    + getinputfromfile(ifile, inputarray)
-    + closefile(ifile)
+class main{
+    + readfromfile
+    + sortArray
+    + writetofile
 }
 
-class sortArray(inputarray){
-    - String[] temparray
-    + //dothesort
-}
-
-class printtofile(inputarray){
-    + openfile(ofile) //create?
-    + printformatted(element_count)
-    + print(inputarray)
-    + closefile(ofile)
-}
 
 @enduml
