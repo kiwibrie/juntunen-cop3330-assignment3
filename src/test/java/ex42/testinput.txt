@@ -1,0 +1,9 @@
+Blake,Daphne,10000
+Fred,Fred,10000
+Dinkley,Velma,18500
+Doo,Scooby,scoobysnacks
+Doo,Scrappy,10000
+Rogers,Shaggy,9500
+Monster,Monster,0
+McMonster,Mr.,0
+Takei,George,16000

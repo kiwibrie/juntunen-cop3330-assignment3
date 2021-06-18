@@ -1,0 +1,23 @@
+@startuml
+'https://plantuml.com/class-diagram
+
+
+class readfromfile{
+- List[] employeeData
+//reads emplyee data from file
+}
+
+class printoutput(data){
+//print headers + separator
+//iterate through employeeData
+}
+
+
+class Employee{
+- firstname
+- lastname
+- salary
++ createEmployee
+}
+
+@enduml
