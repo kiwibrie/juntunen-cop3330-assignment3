@@ -1,0 +1,12 @@
+@startuml
+'https://plantuml.com/class-diagram
+
+class WordFinder{
++ readFromFile
++ generateNewText
++ writeToFile
+
++ promptString
+}
+
+@enduml
