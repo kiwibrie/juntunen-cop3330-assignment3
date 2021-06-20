@@ -1,0 +1,17 @@
+@startuml
+'https://plantuml.com/class-diagram
+
+class app {
++ createInventory
++ searchInventory
++ printOutput
+}
+
+class Product{
+- String name
+- String price
+- String quantity
+}
+
+
+@enduml
