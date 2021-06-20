@@ -1,0 +1,12 @@
+@startuml
+'https://plantuml.com/class-diagram
+
+class WordFrequencyFinder{
++ readFromFile(path)
++ searchText()
++ generateWordCounter(word)
++ printOutput()
++ findMostFrequent()
+}
+
+@enduml
