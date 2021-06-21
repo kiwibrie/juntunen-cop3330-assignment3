@@ -16,7 +16,8 @@ public class NameSorter {
 
         //read the file, line by line, inserting into an array
         //close input file
-        List<String> names = app.readFromFile("src/main/java/ex41/exercise41_input.txt");
+        String path = "src/main/resources/exercise41_input.txt";
+        List<String> names = app.readFromFile(path);
 
         //sort array, return sorted array
         names = app.sortList(names);

@@ -96,17 +96,3 @@ public class WordFrequencyFinder {
     }
 }
 
-class Keyword{
-    String word;
-    int frequency;
-
-    public Keyword(String word, int frequency) {
-        this.word = word;
-        this.frequency = frequency;
-    }
-
-    public int getFrequency() {
-        return frequency;
-    }
-}
-

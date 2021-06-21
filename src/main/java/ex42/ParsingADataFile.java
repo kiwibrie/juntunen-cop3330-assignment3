@@ -21,7 +21,8 @@ public class ParsingADataFile {
             //open file
             //read file, adding each line to a list
             //close file
-            input = app.readFromFile("src/main/java/ex42/exercise42_input.txt");
+            String path = "src/main/resources/exercise42_input.txt";
+            input = app.readFromFile(path);
 
             //take in inputlist
             //convert each line to a list of employees
@@ -69,14 +70,3 @@ public class ParsingADataFile {
     }
 }
 
-class Employee{
-    String firstname;
-    String lastname;
-    String salary;
-
-    public Employee(String firstname, String lastname, String salary) {
-        this.firstname = firstname;
-        this.lastname = lastname;
-        this.salary = salary;
-    }
-}

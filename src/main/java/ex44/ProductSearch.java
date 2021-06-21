@@ -20,7 +20,7 @@ public class ProductSearch {
     public static void main(String[] args){
         ProductSearch app = new ProductSearch();
 
-        String input_path = "src/main/java/ex44/exercise44_input.json";
+        String input_path = "src/main/resources/exercise44_input.json";
         //create list from json file
         List<Product> inventory = app.createInventory(input_path);
 
@@ -73,14 +73,3 @@ public class ProductSearch {
     }
 }
 
-class Product{
-    String name;
-    String price;
-    String quantity;
-
-    public Product(String name, String price, String quantity){
-        this.name = name;
-        this.price = price;
-        this.quantity = quantity;
-    }
-}
