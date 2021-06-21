@@ -2,11 +2,17 @@
 'https://plantuml.com/class-diagram
 
 class WordFrequencyFinder{
+- List wordList
+- List sortedWordList
 + readFromFile(path)
-+ searchText()
-+ generateWordCounter(word)
++ generateWordList()
++ sortWordList()
 + printOutput()
-+ findMostFrequent()
+}
+
+class Keyword{
+- String word
+- int frequency
 }
 
 @enduml
